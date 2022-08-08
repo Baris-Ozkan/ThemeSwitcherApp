@@ -28,7 +28,27 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              {
+                "input": "src/assets/themes/theme-default-journal/style.scss",
+                "bundleName": "journal",
+                "inject": false
+              },
+              {
+                "input": "src/assets/themes/theme-lux/style.scss",
+                "bundleName": "lux",
+                "inject": false
+              },
+              {
+                "input": "src/assets/themes/theme-cyborg/style.scss",
+                "bundleName": "cyborg",
+                "inject": false
+              },
+              {
+                "input": "src/assets/themes/theme-morph/style.scss",
+                "bundleName": "morph",
+                "inject": false
+              }
             ],
             "scripts": []
           },
